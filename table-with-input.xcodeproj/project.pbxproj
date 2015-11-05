@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB8739D71BEC13C300ED66E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8739D61BEC13C300ED66E9 /* main.m */; };
+		BB8739DA1BEC13C300ED66E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8739D91BEC13C300ED66E9 /* AppDelegate.m */; };
+		BB8739DD1BEC13C300ED66E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8739DC1BEC13C300ED66E9 /* ViewController.m */; };
+		BB8739E01BEC13C300ED66E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8739DE1BEC13C300ED66E9 /* Main.storyboard */; };
+		BB8739E21BEC13C300ED66E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB8739E11BEC13C300ED66E9 /* Assets.xcassets */; };
+		BB8739E51BEC13C300ED66E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB8739E31BEC13C300ED66E9 /* LaunchScreen.storyboard */; };
+		BB8739EF1BEC147B00ED66E9 /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8739EE1BEC147B00ED66E9 /* LabelCell.m */; };
+		BB8739F21BEC149100ED66E9 /* LongInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8739F11BEC149100ED66E9 /* LongInputCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB8739D21BEC13C300ED66E9 /* table-with-input.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "table-with-input.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB8739D61BEC13C300ED66E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB8739D81BEC13C300ED66E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB8739D91BEC13C300ED66E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB8739DB1BEC13C300ED66E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BB8739DC1BEC13C300ED66E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BB8739DF1BEC13C300ED66E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB8739E11BEC13C300ED66E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB8739E41BEC13C300ED66E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB8739E61BEC13C300ED66E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB8739ED1BEC147B00ED66E9 /* LabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelCell.h; sourceTree = "<group>"; };
+		BB8739EE1BEC147B00ED66E9 /* LabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelCell.m; sourceTree = "<group>"; };
+		BB8739F01BEC149100ED66E9 /* LongInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongInputCell.h; sourceTree = "<group>"; };
+		BB8739F11BEC149100ED66E9 /* LongInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongInputCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB8739CF1BEC13C300ED66E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB8739C91BEC13C300ED66E9 = {
+			isa = PBXGroup;
+			children = (
+				BB8739D41BEC13C300ED66E9 /* table-with-input */,
+				BB8739D31BEC13C300ED66E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB8739D31BEC13C300ED66E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB8739D21BEC13C300ED66E9 /* table-with-input.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB8739D41BEC13C300ED66E9 /* table-with-input */ = {
+			isa = PBXGroup;
+			children = (
+				BB8739EC1BEC145E00ED66E9 /* Cells */,
+				BB8739D81BEC13C300ED66E9 /* AppDelegate.h */,
+				BB8739D91BEC13C300ED66E9 /* AppDelegate.m */,
+				BB8739E11BEC13C300ED66E9 /* Assets.xcassets */,
+				BB8739E61BEC13C300ED66E9 /* Info.plist */,
+				BB8739E31BEC13C300ED66E9 /* LaunchScreen.storyboard */,
+				BB8739DE1BEC13C300ED66E9 /* Main.storyboard */,
+				BB8739D51BEC13C300ED66E9 /* Supporting Files */,
+				BB8739DB1BEC13C300ED66E9 /* ViewController.h */,
+				BB8739DC1BEC13C300ED66E9 /* ViewController.m */,
+			);
+			path = "table-with-input";
+			sourceTree = "<group>";
+		};
+		BB8739D51BEC13C300ED66E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB8739D61BEC13C300ED66E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB8739EC1BEC145E00ED66E9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BB8739ED1BEC147B00ED66E9 /* LabelCell.h */,
+				BB8739EE1BEC147B00ED66E9 /* LabelCell.m */,
+				BB8739F01BEC149100ED66E9 /* LongInputCell.h */,
+				BB8739F11BEC149100ED66E9 /* LongInputCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB8739D11BEC13C300ED66E9 /* table-with-input */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB8739E91BEC13C300ED66E9 /* Build configuration list for PBXNativeTarget "table-with-input" */;
+			buildPhases = (
+				BB8739CE1BEC13C300ED66E9 /* Sources */,
+				BB8739CF1BEC13C300ED66E9 /* Frameworks */,
+				BB8739D01BEC13C300ED66E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "table-with-input";
+			productName = "table-with-input";
+			productReference = BB8739D21BEC13C300ED66E9 /* table-with-input.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB8739CA1BEC13C300ED66E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "David Wagner";
+				TargetAttributes = {
+					BB8739D11BEC13C300ED66E9 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = BB8739CD1BEC13C300ED66E9 /* Build configuration list for PBXProject "table-with-input" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB8739C91BEC13C300ED66E9;
+			productRefGroup = BB8739D31BEC13C300ED66E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB8739D11BEC13C300ED66E9 /* table-with-input */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB8739D01BEC13C300ED66E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8739E51BEC13C300ED66E9 /* LaunchScreen.storyboard in Resources */,
+				BB8739E21BEC13C300ED66E9 /* Assets.xcassets in Resources */,
+				BB8739E01BEC13C300ED66E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB8739CE1BEC13C300ED66E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8739F21BEC149100ED66E9 /* LongInputCell.m in Sources */,
+				BB8739DD1BEC13C300ED66E9 /* ViewController.m in Sources */,
+				BB8739DA1BEC13C300ED66E9 /* AppDelegate.m in Sources */,
+				BB8739EF1BEC147B00ED66E9 /* LabelCell.m in Sources */,
+				BB8739D71BEC13C300ED66E9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB8739DE1BEC13C300ED66E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8739DF1BEC13C300ED66E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB8739E31BEC13C300ED66E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB8739E41BEC13C300ED66E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB8739E71BEC13C300ED66E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB8739E81BEC13C300ED66E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB8739EA1BEC13C300ED66E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "table-with-input/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noiseandheat.ios.test.experiment.table-with-input";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB8739EB1BEC13C300ED66E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "table-with-input/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noiseandheat.ios.test.experiment.table-with-input";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB8739CD1BEC13C300ED66E9 /* Build configuration list for PBXProject "table-with-input" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8739E71BEC13C300ED66E9 /* Debug */,
+				BB8739E81BEC13C300ED66E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB8739E91BEC13C300ED66E9 /* Build configuration list for PBXNativeTarget "table-with-input" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB8739EA1BEC13C300ED66E9 /* Debug */,
+				BB8739EB1BEC13C300ED66E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB8739CA1BEC13C300ED66E9 /* Project object */;
+}
